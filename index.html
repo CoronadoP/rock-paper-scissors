@@ -12,15 +12,14 @@
         <h2 class="sub-title">FIRST TO 5 WINS</h2>
       </div>
 
-      <div id="choices">
-
-        <button id="rock-button">
+      <div class="choices">
+        <button id="rock" class="choice-button">
             <img src="images/rock-icon.png" alt="">
         </button>
-        <button id="paper-button">
+        <button id="paper" class="choice-button">
             <img src="images/paper-icon.png" alt="">
         </button>
-        <button id="scissors-button">
+        <button id="scissors" class="choice-button">
             <img src="images/scissor-icon.png" alt="">
         </button>
       </div>
@@ -28,12 +27,16 @@
       <div id="score">
         <div id="player-score" class="scoreboard">
             <h1>YOU</h1>
-            <p>0</p>
+            <p id="player-score-p">0</p>
         </div>
         <div id="comp-score" class="scoreboard">
             <h1>COMP</h1>
-            <p>0</p>
+            <p id="comp-score-p">0</p>
         </div>
+      </div>
+
+      <div id="reset">
+        <button id="reset-button">RESET GAME</button>
       </div>
   </div>
 </body>

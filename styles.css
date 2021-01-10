@@ -39,20 +39,20 @@ img {
     height: 100px;
 }
 
-#choices {
+.choices {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
 }
 
-button {
+.choice-button {
     padding: 10px 20px;
     margin: 10px;
     background-color: #f1faee;
     border: 5px outset #e63946;
 }
 
-button:hover{
+.choice-button:hover{
     border: 5px outset #a8dadc;
     transition-duration: 0.01s;
 }
@@ -88,5 +88,25 @@ p{
     font-size: 60px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+/*RESET CSS STYLING*/
+#reset {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-button {
+    border: 5px outset #f1faee;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #e63946;
+    background-color: #457b9d;
+    font-weight: bold;
+}
+
+#reset-button:hover{
+    border: 5px outset #e63946;
 }
 
