@@ -84,7 +84,13 @@ img {
     margin-left: 20px;
 }
 
-p{
+#player-score-p{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#comp-score-p{
     font-size: 60px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -94,6 +100,7 @@ p{
 #reset {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #reset-button {
@@ -104,9 +111,24 @@ p{
     color: #e63946;
     background-color: #457b9d;
     font-weight: bold;
+    width: 200px;
+    align-self: center;
+
 }
 
 #reset-button:hover{
     border: 5px outset #e63946;
+}
+
+#result {
+    align-self:center;
+    border: 5px solid #a8dadc;
+    background-color: #f1faee;
+    text-align: center;
+    width: 300px;
+    padding: 25px 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
 }
 
